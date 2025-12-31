@@ -14,7 +14,6 @@ A flexible and extensible permissions system for Roblox games. RBXPerms allows y
 local RBXPerms = require(path.to.RBXPerms)
 
 -- Check permissions for a specific player (server-side)
-local player = game.Players:GetPlayerByName("PlayerName")
 local hasPermission = RBXPerms(player, {
     "Group:123456",
     "Badge:987654"
